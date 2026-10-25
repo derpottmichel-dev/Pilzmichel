@@ -1,0 +1,12 @@
+PilzMichel – Lexikon-Update (Offline-Arbeitsstand)
+
+Sichtbare Änderungen:
+- Lexikon lädt keine Beschreibungen/Bilder mehr von Wikipedia oder Wikimedia nach.
+- Suche funktioniert lokal nach Name, wissenschaftlichem Namen, Lebensraum, Saison und Sicherheitshinweis.
+- Neue Filter: Warnhinweise, Wald, Wiese/Heide, Herbst und Sommer.
+- Trefferzahl und aktueller Bestand werden angezeigt.
+- Jeder Eintrag weist darauf hin, dass die Daten noch fachlich geprüft werden müssen.
+- Tagebuch und übrige App-Dateien wurden beibehalten.
+
+Bestand: 120 Einträge aus der bisherigen App.
+Wichtig: Diese Version enthält noch keine neu recherchierten 1.380 Arten und keine lokal eingebetteten, einzeln lizenzgeprüften Artfotos. Sie ist ein ehrlicher, funktionsfähiger Zwischenschritt und keine fertige wissenschaftliche Datenbank.

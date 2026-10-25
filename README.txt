@@ -1,33 +1,11 @@
-PilzMichel – Web-Edition (Android-freundlicher Prototyp)
-========================================================
+PilzMichel – Lexikon-Ausbaupaket (Web-App)
 
-Was ist enthalten?
-- Responsive Oberfläche für Smartphone und Desktop
-- Startseite, Fotoauswahl/Kamera, Pilzwissen, lokale Fundliste
-- Optionale Standortabfrage (nur nach Browser-Zustimmung)
-- Funddaten lokal im Browser speichern und als JSON exportieren
-- PWA-Grundgerüst (Manifest + Service Worker) für spätere Installation auf Android
-- Kleine Demo-Artenliste und Sicherheitshinweise
+Dateien: index.html, manifest.webmanifest, sw.js, icon.svg, README.txt
 
-Wichtig – aktueller Stand
-- Noch KEINE echte KI-Bilderkennung
-- Noch KEINE zentrale Online-Datenbank oder Benutzerkonten
-- Noch KEINE automatische wissenschaftliche Datenübermittlung
-- Noch KEINE Werbeanzeigen
-- Die Demo-Artenliste ist klein und ersetzt kein fachlich geprüftes Pilzlexikon.
-- Fotos und Funde bleiben lokal im Browser; sie werden nicht automatisch hochgeladen.
+Update: Im vorhandenen GitHub-Repository pilzmichel alle fünf Dateien aus diesem Ordner über Add file → Upload files hochladen und Commit changes wählen. Kein neues Repository anlegen.
 
-So testest du es auf Android
-1. Lade die ZIP-Datei herunter und entpacke sie mit der Dateien-App.
-2. Für eine richtige Web-App-Installation muss die Website später unter einer HTTPS-Adresse gehostet werden. Eine lokal geöffnete HTML-Datei lässt sich nicht als vollwertige PWA installieren.
-3. Sobald sie gehostet ist, öffne die Website in Chrome. Tippe auf ⋮ und wähle „Zum Startbildschirm hinzufügen“ oder „App installieren“ (die Bezeichnung kann variieren).
+Neu: Das bestehende Lexikon zeigt die vorhandenen 120 Einträge. Bei Internetverbindung versucht die App, zu jedem angezeigten Eintrag eine passende Bilddatei aus Wikimedia Commons (mit Lizenz-/Quelllink) sowie eine Kurzbeschreibung von Wikipedia nachzuladen. Das Laden erfolgt erst, wenn Karten sichtbar werden. Wenn keine passende Quelle gefunden wird, zeigt die App dies an, statt ein erfundenes Bild einzusetzen.
 
-Nächste technische Schritte
-1. Einen einfachen Hosting-Dienst auswählen und die Dateien dort veröffentlichen.
-2. Eine sichere serverseitige Schnittstelle für die KI auswählen und einrichten (API-Schlüssel niemals in index.html eintragen).
-3. Eine zentrale Datenbank mit Artendaten und getrennten Fundmeldungen aufbauen.
-4. Datenschutz, Einwilligungen, Aufbewahrung, Export und Schutz sensibler Fundorte prüfen.
-5. Erst danach die KI-Erkennung anschließen und mit echten Fotos testen.
+WICHTIG: Dies ist kein vollständig geprüftes wissenschaftliches Lexikon. Bildsuche und Wikipedia-Zusammenfassungen können falsche, unvollständige oder nicht passende Ergebnisse liefern; Bildzuordnung, Lizenzbedingungen und Fakten müssen vor einer kommerziellen Veröffentlichung redaktionell geprüft werden. Die App besitzt keine automatische Fotoerkennung. Niemals Pilze aufgrund eines Fotos oder App-Eintrags verzehren.
 
-Sicherheitsnotiz
-Eine Foto-App kann Pilze falsch bestimmen. Keine Essbarkeitsfreigabe allein anhand eines KI-Ergebnisses. Bei Unsicherheit nicht verzehren; fachkundige Bestimmung einholen.
+Persönliche Funddaten werden lokal im Browser gespeichert und nicht automatisch hochgeladen. Vor dem Update wichtige Funde über die Exportfunktion sichern.

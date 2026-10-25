@@ -1,12 +1,12 @@
 {
   "name": "PilzMichel – Dein Pilzführer",
   "short_name": "PilzMichel",
-  "description": "Pilzfunde dokumentieren und Pilzwissen entdecken.",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#fbf8ef",
   "theme_color": "#174c35",
+  "description": "Dein persönliches Pilztagebuch und Pilzführer.",
   "icons": [
     {
       "src": "icon.svg",
